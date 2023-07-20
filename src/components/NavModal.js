@@ -29,7 +29,7 @@ const NavModel = () => {
                     </li>
                     {!localStorage.getItem('token')
                         ? <><li>
-                            <Link to="/signin" onClick={handleClick}><button>Sign in</button></Link>
+                            <Link to="/signin" onClick={handleClick}><button>Sign up</button></Link>
                         </li>
                             <li>
                                 <Link to="/login" onClick={handleClick}><button>Login</button></Link>
