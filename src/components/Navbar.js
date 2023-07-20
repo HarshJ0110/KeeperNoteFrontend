@@ -33,7 +33,7 @@ const Navbar = () => {
                 </li>
                 {!localStorage.getItem('token')
                 ? <ul style={{display: 'flex', flexDirection: 'row', paddingLeft: 0}}><li>
-                    <Link  to="/signin"><button>Sign in</button></Link>
+                    <Link  to="/signin"><button>Sign up</button></Link>
                 </li>
                 <li>
                     <Link to="/login"><button>Login</button></Link>
